@@ -16,7 +16,7 @@ def find_the_cheese(food_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_types.each {|element| food_items.find(element)}
+  cheese_types.each {|element| food_items.find {|i| element == i}}
 
-  
+
 end
