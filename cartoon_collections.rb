@@ -15,7 +15,7 @@ end
 def find_the_cheese(food_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food_items = ["cheddar", "goud", "camebert"]
+  #food_items = ["cheddar", "goud", "camebert"]
 
   i = 0
   j = 0
