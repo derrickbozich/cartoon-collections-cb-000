@@ -15,20 +15,28 @@ end
 def find_the_cheese(food_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  #cheese_types.find { |e| e == "cheddar" }
+  food_items = ["cheddar", "goud", "camebert"]
 
-  #cheese_types.each {|element| food_items.find {|i| i == element }}
+  i = 0
+  j = 0
+  matches = []
+  while i < cheese_types.length
+    while j < food_items.length
 
-  food_items.find {|i| i == cheese_types.each {|e| e } }
+      if cheese_types[i] == food_items[j]
+        matches << cheese_types
 
-  food_items.find do |i|
-    i == cheese_types.each do |e|
-       e
-    end 
-    
-  end 
+      end
 
-  
+      j += 1
+
+    end
+
+    i += 1
+
+  end
+
+  matches.first
 
 
 end
