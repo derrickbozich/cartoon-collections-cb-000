@@ -21,5 +21,14 @@ def find_the_cheese(food_items)
 
   food_items.find {|i| i == cheese_types.each {|e| e } }
 
+  food_items.find do |i|
+    i == cheese_types.each do |e|
+       e
+    end 
+    
+  end 
+
+  
+
 
 end
