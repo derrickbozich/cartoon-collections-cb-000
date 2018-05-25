@@ -24,7 +24,7 @@ def find_the_cheese(food_items)
     while j < food_items.length
 
       if cheese_types[i] == food_items[j]
-        matches << cheese_types
+        matches << cheese_types[i]
 
       end
 
