@@ -7,8 +7,9 @@ def summon_captain_planet(array)
   array.map { |e| (e.capitalize).concat("!")  }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  return_values = array.map { |e| e.length > 4  }
+  return_values.include?(true) ? true : false
 end
 
 def find_the_cheese# code an argument here
